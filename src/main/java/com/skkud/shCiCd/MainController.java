@@ -1,0 +1,14 @@
+package com.skkud.shCiCd;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MainController {
+    @GetMapping("/")
+    public String hello() {
+        System.out.println("Hello Server!");
+        System.out.println("Hello Github");
+        return "Hello ApI!";
+    }
+}
