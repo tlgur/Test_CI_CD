@@ -9,6 +9,7 @@ public class MainController {
     public String hello() {
         System.out.println("Hello Server!");
         System.out.println("Hello Github");
+        System.out.println("Hello Github Real!");
         return "Hello ApI!";
     }
 }
